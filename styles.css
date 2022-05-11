@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/03/09/16468231897426.jpg)
+  }
+  
+  .pag {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: calc(80vh - 100px);
+      color: white;
+      font-size: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+ 
+  .search-bar {
+    width: 500px;
+    background-color: green;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .search-bar button {
+    background-color: rgb(173, 245, 6);
+  }
+  .search-bar button, .search-bar input {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .movies {
+    margin: auto;
+    width: 500px;
+  }
+  
+  .movie-box {
+    background-color: rgba(255, 255, 255, 0.904);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .movie-box .details .title {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline ;
+    color: orange;
+  }
+  .img{
+    width: 250px;
+    height: 300px;
+    display:block;
+    margin:auto;
+  }
+  .movie-box .details .overview {
+    padding-top: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .movie-box .details .estreno{
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .movie-box .details .puntuacion{
+    font-size: 17px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+  }body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/03/09/16468231897426.jpg);
+  }
+
+  .pag {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: calc(40vh - 100px); 
+      color: white;
+      font-size: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .menu li {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: flex;
+
+  }
+  .idioma {
+    width: auto;
+    height: 23px;
+    font-size: 18px;
+  }
+ .caja{
+ cursor: pointer;
+height: 22px;
+display: flex;
+
+
+ }
+  .search-bar {
+    width: auto;
+    background: #092327;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin: auto;
+    display: block;
+    justify-content: left;
+    color: white;
+
+  }
+  .search-bar button {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+  }
+  input{
+    display: flex;
+    width: 100%;
+
+  }
+  .search-bar button, .search-bar input {
+    font-size: 20px;
+  }
+
+  .movies {
+    margin: auto;
+    width: 500px;
+  }
+
+  .movie-box {
+    background-color: rgba(255, 255, 255, 0.904);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .movie-box .details .title {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline ;
+    color: orange;
+  }
+
+  .movie-box .details .overview {
+    padding-top: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .movie-box .details .estreno{
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .movie-box .details .puntuacion{
+    font-size: 17px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+ 

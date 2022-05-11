@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head+>
+  <title>Movies</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="pag">
+        <h1>Buscador de películas</h1>
+    </div>
+  <form class="search-bar" action="#">
+    <input type="text" id="query" value="" placeholder="Ingrese nombre de película" />
+    <label for="idioma">Lenguaje</label>
+    <select name="idioma" id="idioma">
+      <option>Inglés</option>
+      <option>Español</option>
+    </select>
+    <br>
+    <label>Contenido +18</label><input type="checkbox" id="contenidoAdulto">
+    
+  <br>
+  <br>
+    <button onclick="submitForm()">BUSCAR</button>
+    
+  </form>
+
+
+  <div class="movies" id="movies">
+    <div id="movies-list"></div>
+  </div>
+</body>
